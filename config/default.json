@@ -1,0 +1,9 @@
+{
+  "authentication": {
+    "AUTH_DOMAIN": "<YOUR_OAUTH_DOMAIN>",
+    "API_ENDPOINT": "<YOUR_APP_ENDPOINT>"
+  },
+  "database":{
+    "DB_URL": "<DB_URL>"
+  }
+}
