@@ -65,6 +65,8 @@ app.put('/:id', async (req, res) => {
   res.send({ message: 'Ad updated.' });
 });
 
-app.listen(3000, () => {
-  console.log('listening on port 3000');
+const appConfig = config.get('app');
+
+app.listen(appConfig.PORT, () => {
+  console.log(`listening on port ${appConfig.PORT}`);
 });
